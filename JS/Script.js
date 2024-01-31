@@ -2,6 +2,7 @@ var xReq = new XMLHttpRequest();
 xReq.open("GET", "../JSON/Works.json", true);
 xReq.onload = function () {
     w = JSON.parse(xReq.responseText);
+    console.log(w);
     works = "";
     for (let i = 0; i < w.length; i++) {
         works =
