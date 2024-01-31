@@ -1,0 +1,87 @@
+[
+    {
+        "Img" : "CoverDali.png",
+        "Titre" : "Mohamed Ali Louati",
+        "Desc" : "Private Logo"
+    },
+    {
+        "Img" : "CoverBookelated.png",
+        "Titre" : "Bookelated",
+        "Desc" : "Education Field"
+    },
+    {
+        "Img" : "CoverFourOfAKind.png",
+        "Titre" : "Four Of A Kind",
+        "Desc" : "Start-up Company"
+    },
+    {
+        "Img" : "CoverIlkoujina.png",
+        "Titre" : "IlKoujina",
+        "Desc" : "Restaurant"
+    },
+    {
+        "Img" : "CoverBlueseal.png",
+        "Titre" : "Blueseal",
+        "Desc" : ""
+    },
+    {
+        "Img" : "CoverBury.png",
+        "Titre" : "Bury",
+        "Desc" : ""
+    },
+    {
+        "Img" : "CoverLionBardge.png",
+        "Titre" : "Lion Bardge",
+        "Desc" : ""
+    },
+    {
+        "Img" : "CoverLoremIpsum.png",
+        "Titre" : "Lorem Ipsum",
+        "Desc" : ""
+    },
+    {
+        "Img" : "CoverMaxMoney.png",
+        "Titre" : "Max Money",
+        "Desc" : ""
+    },
+    {
+        "Img" : "CoverMotawerTek.png",
+        "Titre" : "Motawer Tek",
+        "Desc" : ""
+    },
+    {
+        "Img" : "CoverMotivate.png",
+        "Titre" : "Motivate",
+        "Desc" : ""
+    },
+    {
+        "Img" : "CoverPhoenix.png",
+        "Titre" : "Phoenix",
+        "Desc" : ""
+    },
+    {
+        "Img" : "CoverQueenJeremiah.png",
+        "Titre" : "Queen Jeremiah",
+        "Desc" : ""
+    },
+    {
+        "Img" : "CoverSimanSchurster.png",
+        "Titre" : "Siman Schurster",
+        "Desc" : ""
+    },
+    {
+        "Img" : "CoverSpringfield.png",
+        "Titre" : "Springfield",
+        "Desc" : ""
+    },
+    {
+        "Img" : "CoverTheMotivationMindset.png",
+        "Titre" : "The Motivation Mindset",
+        "Desc" : ""
+    },
+    {
+        "Img" : "CoverWisdomMarcus.png",
+        "Titre" : "Wisdom Marcus",
+        "Desc" : ""
+    }
+]

@@ -1,0 +1,14 @@
+[
+    {
+        "link" : "https://www.linkedin.com/in/mohamed-ali-louati-204490271?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+        "icon" : "<ion-icon name='logo-linkedin'></ion-icon>"
+    },
+    {
+        "link" : "https://x.com/MedAliLt2022?t=GJI2nopzPBfhe2OAjyIHMQ&s=09",
+        "icon" : "<ion-icon name='logo-twitter'></ion-icon>"
+    },
+    {
+        "link" : "https://www.behance.net/louatimohamed2",
+        "icon" : "<ion-icon name='logo-behance'></ion-icon>"
+    }
+]

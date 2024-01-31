@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Cute+Font&family=Fraunces:ital,opsz,wght@0,9..144,100;0,9..144,200;0,9..144,300;1,9..144,100;1,9..144,500&display=swap');
+html {
+  overflow-x: hidden;
+}
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Cute Font', sans-serif
+}
+body {
+  background-color: #181d26;
+}
+
+/* ****** x ****** */
+div {
+  display: flex;
+  justify-content: flex-end;
+  padding: 15px;
+}
+.x {
+  text-decoration: none;
+  color: #bf7950;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  padding: 5px;
+  text-align: center;
+  font-weight: bold;
+  cursor: pointer;
+}
+.x ion-icon{
+  width: 40px;
+  height: 40px;
+}
+.x:hover {
+  text-decoration: none;
+  color: #a6a6a6;
+}
+
+/* ****** main ****** */
+main {
+  padding: 20px 0;
+}
+img {
+  width: 100%;
+}
+
+/* ****** Footer ****** */
+footer {
+  background-color: #a6a6a6;
+  height: 40px;
+  padding: 10px;
+}
+footer p {
+  color: #bf7950;
+  text-transform: uppercase;
+  text-align: center;
+  cursor: default;
+  font-weight: bold;
+}

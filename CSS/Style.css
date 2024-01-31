@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css2?family=Cute+Font&family=Fraunces:ital,opsz,wght@0,9..144,100;0,9..144,200;0,9..144,300;1,9..144,100;1,9..144,500&display=swap');
+html {
+  overflow-x: hidden;
+}
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Cute Font', sans-serif
+}
+body {
+  background-color: #223a59;
+}
+header {
+  background-color: #223a59;
+}
+
+/* ****** BarreMenu ****** */
+.Barre {
+  width: 100%;
+  height: 40px;
+  display: flex;
+  margin-bottom: 20px;
+}
+.Barre .presentation {
+  width: 40%;
+  display: flex;
+}
+.presentation img {
+  width: 35px;
+  height: 35px;
+  margin: 2.5px 7px;
+}
+.Barre .links {
+  width: 60%;
+}
+ul li {
+  width: calc(100% / 4);
+  text-align: center;
+  display: block;
+  padding: 10px 1rem;
+}
+li a {
+  color: #f2f2f2;
+}
+li .Ligne {
+  display: block;
+  background-color: #f2f2f2;
+  width: 0.5px;
+  height: 0.5px;
+  margin: auto;
+  border-radius: 0.5px;
+  transition: all 0.2s;
+}
+li:hover .Ligne {
+  background-color: #bf7950;
+  width: 20px;
+}
+li:hover a {
+  text-decoration: none;
+  color: #bf7950;
+}
+
+/* ****** Cover ****** */
+.Cover {
+  border-bottom: 0.5px solid #bf7950;
+  padding: 20px 0;
+}
+.pres {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.profil img {
+  width: 100%;
+}
+.pres p {
+  display: block;
+  font-size: 25px;
+  color: #f2f2f2;
+  cursor: default;
+}
+p .name {
+  color: #bf7950;
+  font-weight: bold;
+}
+p .serv {
+  color: #f2f2f2;
+  background-color: #bf7950;
+  border-radius: 5px;
+  padding: 5px;
+  font-size: 20px;
+}
+
+/* ****** About ****** */
+#About {
+  padding-top: 20px;
+  border-bottom: 0.5px solid #bf7950;
+}
+.Imagepr img {
+  width: 100%;
+}
+.about .titre,
+#Service .titre,
+#MyWork .titre,
+#Contact .titre {
+  font-size: 50px;
+  font-weight: bold;
+  color: #bf7950;
+  margin: 10px 0;
+  cursor: default;
+}
+.about .para {
+  color: #f2f2f2;
+  margin-left: 50px;
+  font-size: 20px;
+  margin-bottom: 10px;
+  cursor: default;
+}
+
+/* ****** Service ****** */
+#Service {
+  border-bottom: 0.5px solid #bf7950;
+  padding: 20px 0;
+}
+#Service a {
+  text-decoration: none;
+}
+#Service img {
+  width: 80%;
+  margin: 0 10%;
+  border-radius: 5px;
+  transition: all 0.2s;
+}
+#Service a:hover {
+  background-color: #223a59;
+  opacity: 0.5;
+}
+#Service a:hover img {
+  width: 79%;
+}
+
+/* ****** My Work ****** */
+#MyWork {
+  padding: 20px 0;
+  border-bottom: 0.5px solid #bf7950;
+}
+.BoxWorks {
+  width: 90%;
+  margin: auto;
+}
+.work {
+  margin: 5px 0;
+}
+.work a {
+  text-decoration: none;
+}
+.work img {
+  width: 100%;
+  border-radius: 5px;
+  transition: all 0.2s;
+}
+.work img:hover {
+  width: 95%;
+  opacity: 0.2;
+}
+.work .titreWork {
+    font-size: 18px;
+    font-weight: bold;
+  color: #f2f2f2;
+}
+.work .desc {
+    font-size: 18px;
+  color: #a6a6a6;
+}
+
+/* ****** Contact ****** */
+#Contact {
+  padding: 20px 0;
+}
+.BOXCONTACT {
+  width: calc(55px * 4);
+  margin: auto;
+  display: flex;
+}
+.BOXCONTACT ion-icon {
+  color: #f2f2f2;
+  width: 30px;
+  height: 30px;
+  margin: 0 20px;
+  transition: all 0.2s;
+}
+.BOXCONTACT ion-icon:hover {
+  width: 28px;
+  height: 28px;
+  color: #181d26;
+}
+
+/* ****** Footer ****** */
+footer {
+  background-color: #181d26;
+  height: 40px;
+  padding: 10px;
+}
+footer p {
+  color: #bf7950;
+  text-transform: uppercase;
+  text-align: center;
+  cursor: default;
+}
