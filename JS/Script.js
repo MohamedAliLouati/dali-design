@@ -1,7 +1,6 @@
 var xReq = new XMLHttpRequest();
 xReq.open("GET", "JSON/Works.json", true);
 xReq.onload = function () {
-    console.log("JSON/Works.json",xReq.responseText);
     w = JSON.parse(xReq.responseText);
     works = "";
     for (let i = 0; i < w.length; i++) {
@@ -21,7 +20,7 @@ xReq.onload = function () {
 xReq.send();
 
 var xReq1 = new XMLHttpRequest();
-xReq1.open("GET", "../JSON/Links.json", true);
+xReq1.open("GET", "JSON/Links.json", true);
 xReq1.onload = function () {
     l = JSON.parse(xReq1.responseText);
     links = "";
@@ -43,7 +42,7 @@ function PagePortfolio() {
     s = myURL.search;
     titre = s.substring(s.indexOf('$') + 1, s.indexOf('}')).replaceAll('%20', ' ');
     var xReq2 = new XMLHttpRequest();
-    xReq2.open("GET", "../JSON/Portfolio.json", true);
+    xReq2.open("GET", "JSON/Portfolio.json", true);
     xReq2.onload = function () {
         p = JSON.parse(xReq2.responseText);
         let i = -1
