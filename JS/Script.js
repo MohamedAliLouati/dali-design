@@ -1,5 +1,5 @@
 var xReq = new XMLHttpRequest();
-xReq.open("GET", "../JSON/Works.json", true);
+xReq.open("GET", "JSON/Works.json", true);
 xReq.onload = function () {
     console.log(xReq.responseText);
     w = JSON.parse(xReq.responseText);
